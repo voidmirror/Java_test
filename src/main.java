@@ -5,11 +5,13 @@ public class main {
         Scanner fx = new Scanner(System.in);
         int num;
         num = fx.nextInt();
-        System.out.println("yep " + num);
+        System.out.println("yep " + num/3);
 
-        Person Andrey = new Person();
+        Puple Andrey = new Puple();
 
         Andrey.setHeight(169);
         System.out.println("Andrey's height = " + Andrey.getHeight());
+
+
     }
 }

@@ -1,6 +1,16 @@
-public class Person {
+public class Puple {
     private int weight;
     private int height;
+    private int behaviorRating;
+
+    // constructors------------------------------------------
+
+    public Puple() {
+        this.weight = 0;
+        this.height = 0;
+    }
+
+    // methods-----------------------------------------------
 
     public void setWeight(int weight) {
         this.weight = weight;
@@ -18,8 +28,9 @@ public class Person {
         return height;
     }
 
-    public Person() {
-        this.weight = 0;
-        this.height = 0;
-    }
+    /**
+     * Default constructor
+     */
+
+
 }
