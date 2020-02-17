@@ -55,4 +55,20 @@ public class Complexx {
 
         return result;
     }
+
+    public void trigonometryView() {
+//        Complexx result = new Complexx();
+
+        double modul = Math.sqrt(Math.pow(real, 2) + Math.pow(image, 2));
+        double arg = Math.atan(image / real);
+
+        System.out.println(modul + " * (cos(" + arg + ") + i * sin(" + arg + "))");
+
+    }
+
+    @Override
+    public String toString() {
+//        System.out.println(real + " + i*" + image);
+        return String.format(real + " + i*" + image);
+    }
 }
