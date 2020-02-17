@@ -2,15 +2,13 @@ import java.util.Scanner;
 
 public class main {
     public static void main(String[] args) {
-        Scanner fx = new Scanner(System.in);
-        int num;
-        num = fx.nextInt();
-        System.out.println("yep " + num/3);
+        Scanner scanner = new Scanner(System.in);
+        Complexx step = new Complexx(1, 2);
+        Complexx stop = new Complexx(3, 4);
 
-        Puple Andrey = new Puple();
-
-        Andrey.setHeight(169);
-        System.out.println("Andrey's height = " + Andrey.getHeight());
+        Complexx res = new Complexx();
+        res = step.sumComplexx(stop);
+        System.out.println(res.getReal() + " " + res.getImage());
 
 
     }
